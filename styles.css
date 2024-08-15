@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(45deg,#5c3324,#532c1e,#4a2419,#38160d);
+    animation: color 6s ease-in-out infinite;
+    background-size: 300% 300%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 9%;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@font-face{
+    font-family: star e love;
+    src:url(Stars&Love-BottomHeavy.ttf);
+}
+#logo{
+    width: 150px;
+}
+.logoA{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 45%;
+    /* margin: auto; */
+    background-color: #FFBED2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-family: star e love;
+    color: #7a482b;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #f524c1;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #d82aac;
+}
+
+.student-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.student-item:last-child {
+    border-bottom: none;
+}
+
+#studentList{
+    width: 40%;
+}
+#studentTable{
+    width: 100%;
+}
